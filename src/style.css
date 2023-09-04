@@ -1,0 +1,23 @@
+:root {
+  --background: #242424;
+  --foreground: rgba(255, 255, 255, 0.87);
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    --background: #ffffff;
+    --foreground: #213547;
+  }
+} */
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  display: grid;
+  place-content: center;
+  margin-top: 10rem;
+}
+
+canvas {
+  background: var(--foreground);
+}
